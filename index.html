@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<div class="container">
+    <h1 style="text-align: center;">Parking Lot Management System</h1>
+    <form >
+      <div class="row">
+        <div class="col-25">
+          <label for="fname">Owner Name</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="fname" name="firstname" placeholder="Vehicle's Owner name..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="lname">Vehicle Name</label>
+        </div>
+        <div class="Vname">
+          <input type="text" placeholder="Vehicle's name..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25" id="vno">
+          <label for="fname">Vehicle Number</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="fname" name="firstname" placeholder="Enter Vehicle Number..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="fname">Entry Date</label>
+        </div>
+        <div class="col-75">
+            <input type="date" required="required">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="fname">Exit Date</label>
+        </div>
+        <div class="col-75">
+            <input type="date" required="required">
+        </div>
+      </div>
+      <div class="row">
+        <button type="submit">SUBMIT</button>
+      </div>
+    </form>
+  </div>
+
+<!-- 
+  display the vehicles -->
+  <div class="container2">
+      <h2>Vehicles Parked:</h2>
+    <ul class="mylist">
+
+    </ul>
+    <div class="footing">Total Number of vehicles Parked : <span class = "left">0</span></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
